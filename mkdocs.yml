@@ -1,0 +1,17 @@
+site_name: FurryBank Docs
+
+repo_url: https://github.com/YijunStudio/furrybank-docs
+repo_name: YijunStudio/furrybank-docs
+
+
+theme:
+  name: material
+  palette:
+    scheme: default
+    primary: white
+  icon:
+    repo: fontawesome/brands/github
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
