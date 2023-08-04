@@ -11,7 +11,19 @@ theme:
     primary: white
   icon:
     repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
 
 plugins:
   - git-revision-date-localized:
       enable_creation_date: true
+      type: datetime
+
+nav:
+  - Welcome: index.md
+  - Design: 
+    - Database: design/database.md
+    - Visual: design/visual.md
+  - MkDocs: MkDocs.md
